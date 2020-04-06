@@ -1,0 +1,97 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Uneversal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELement selector */
+img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+/* Class selector */
+.decorative-class {
+    font-size: 14px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* Identify selector */
+#unique-text {
+    font-size: 32px;
+    color: red;
+}
+
+/* Child selector */
+
+ul li {
+    font-size: 20px;
+    color: green;
+
+    /* Douther selector */
+    ul li > a {
+        text-decoration: none;
+        color: coral;
+    }
+
+    /* Sister selector */
+    h2 + p {
+        font-style: italic;margin: 5px;
+        color: lightgray;
+    }
+
+    /* Atribute's selector */
+    a[href="https://google.com"] {
+font-size: 32px;
+font-weight: 700;
+font-family: sans-serif;
+    }
+/* Pseudoclass selector */
+li:hover {
+    background-color: black;
+    color: yellow;
+}
+/* Selectors grouping */
+
+    ul, ol {
+        padding-left: 40px;
+    }
+    .paragraph-first {
+        font-size: 32px;
+    }
+        .paragraph-second {
+font-size: 30px;
+    }
+    .paragraph-third {
+        font-size: 28px;
+    }
+    .paragraph-first .paragraph-second .paragraph-third {
+        text-decoration: underline;
+        color:coral !important;
+    }
+    .paragraph-first {
+        color: green;
+    }
+    .parent {
+        font-size: 32px;
+        font-family: sans-serif;
+        color: green;
+    }
+    .parent h2 {
+
+    }
+    /* Selector specificity */
+    /* 0 | 0 | 0 */
+    /* Ids | Classes, attributes, pseudo-classes | Elements, pseudo-elements */
+    
+    }
+}
