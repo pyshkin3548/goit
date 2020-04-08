@@ -1,10 +1,4 @@
-p {
-    color: coral;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-/* Uneversal selector */
+/* Universal selector */
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +13,7 @@ img {
 }
 
 /* Class selector */
-.decorative-class {
+.decorative-text {
     font-size: 14px;
     font-style: italic;
     margin: 5px 0;
@@ -32,29 +26,29 @@ img {
 }
 
 /* Child selector */
-
 ul li {
     font-size: 20px;
     color: green;
-
-    /* Douther selector */
-    ul li > a {
+}
+ /* Doughter selector */
+ul li > a {
         text-decoration: none;
         color: coral;
-    }
+}
 
-    /* Sister selector */
-    h2 + p {
-        font-style: italic;margin: 5px;
+ /* Sister's selector */
+h2 + p {
+        font-style: italic;
+        margin: 5px;
         color: lightgray;
-    }
+}
 
-    /* Atribute's selector */
-    a[href="https://google.com"] {
+/* Atribute's selector */
+a[href="https://google.com"] {
 font-size: 32px;
 font-weight: 700;
 font-family: sans-serif;
-    }
+}
 /* Pseudoclass selector */
 li:hover {
     background-color: black;
@@ -62,36 +56,35 @@ li:hover {
 }
 /* Selectors grouping */
 
-    ul, ol {
-        padding-left: 40px;
+ul, ol {
+    padding-left: 40px;
+}
+.paragraph-first {
+    font-size: 32px;
+}
+.paragraph-second {
+    font-size: 30px;
+}
+.paragraph-third {
+    font-size: 28px;
     }
-    .paragraph-first {
-        font-size: 32px;
-    }
-        .paragraph-second {
-font-size: 30px;
-    }
-    .paragraph-third {
-        font-size: 28px;
-    }
-    .paragraph-first .paragraph-second .paragraph-third {
-        text-decoration: underline;
-        color:coral !important;
-    }
-    .paragraph-first {
-        color: green;
-    }
-    .parent {
-        font-size: 32px;
-        font-family: sans-serif;
-        color: green;
-    }
-    .parent h2 {
-
-    }
+.paragraph-first, .paragraph-second, .paragraph-third {
+    text-decoration: underline;
+    color:coral !important;
+}
+.paragraph-first {
+    color: red;
+}
+.parent {
+    font-size: 32px;
+    font-family: sans-serif;
+    color: green;
+}
     /* Selector specificity */
     /* 0 | 0 | 0 */
-    /* Ids | Classes, attributes, pseudo-classes | Elements, pseudo-elements */
-    
+    /* Id's | Classes, attributes, pseudo-classes | Elements, pseudo-elements */
+
+    /* Focus pseudo-class */
+    a:focus {
+        color: red;
     }
-}
