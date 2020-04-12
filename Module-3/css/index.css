@@ -48,6 +48,8 @@ a[href="https://google.com"] {
 font-size: 32px;
 font-weight: 700;
 font-family: sans-serif;
+margin: 10px 0;
+display: inline-block;
 }
 /* Pseudoclass selector */
 li:hover {
@@ -72,14 +74,16 @@ ul, ol {
     text-decoration: underline;
     color:coral !important;
 }
+
 .paragraph-first {
     color: red;
 }
-.parent {
-    font-size: 32px;
-    font-family: sans-serif;
-    color: green;
-}
+
+/* .parent { */
+    /* font-size: 32px; */
+    /* font-family: sans-serif; */
+    /* color: green; */
+/* } */
     /* Selector specificity */
     /* 0 | 0 | 0 */
     /* Id's | Classes, attributes, pseudo-classes | Elements, pseudo-elements */
@@ -87,4 +91,139 @@ ul, ol {
     /* Focus pseudo-class */
     a:focus {
         color: red;
+            }
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    padding: 10px;
+    border: 5px solid;
+    margin: 10px 0;
+    display: block;    
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.wrapper {
+    width: 500px;
+}
+
+.wrapper header, .wrapper nav, .wrapper footer {
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid;
+    margin: 5px 0;
+}
+
+.wrapper main {
+    text-align: center;
+    border: 2px solid;
+    margin: 5px 0;   
+}
+
+.wrapper article, .wrapper aside {
+    display: inline-block;
+    padding: 60px 0;
     }
+
+.wrapper article {
+    /* option with calc() */
+        width: calc(65% - 4px);
+        /* option with negative margin */
+        /* margin-right: -4px; */
+        border-right: 2px solid;
+    }
+
+.wrapper aside {
+        width: 35%;
+    }
+/* Padding/margin 0 0 0 0 */
+/* padding: 10px 15px 10px 0 - top:10, right:15, bottom: 10, left: 0 */
+/* padding: 10px 0; - top/bottom: 10px; left/right: 0 */
+/* paddingL 10px 0 15px; - top:10; left/right: 0; bottom: 15px;*/
+/* padding: 10px; - top/right/botttom/left: 10px; */
+
+.margin-parent {
+    width: 250px;
+    height: 250px;
+    background-color: darkblue;
+    padding-top: 10px;
+}
+
+.margin-child {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+}
+
+.text-align {
+    text-align: justify;
+}
+
+.block-align {
+    padding: 15px 0;
+    width: 500px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.child-block-align {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+
+.vertical-align {
+    padding: 15px;
+    background-color: yellowgreen;
+}
+
+.vertical-align > div {
+    display: inline-block;
+    width: 75px;
+    height: 100px;
+    vertical-align: bottom;
+    background-color: coral;
+}
+
+.vertical-align > div:nth-child(2) {
+    height: 150px;
+}
+
+.vertical-align > div:nth-child(3) {
+    height: 115px;
+}
+
+.text-vertical-align {
+    margin: 10px 0;
+    font-style: 26px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: line-through;
+    color: red;
+    text-indent: 20px;
+    line-height: 1;
+}
+
+.text-vertical-align > span {
+    vertical-align: super;
+}
+
+.background {
+    height: 250px;
+    padding: 10px;
+    /* background: red url(https://picsum.photos/300/150) repeat center center fixed; */
+    background-color: red;
+    background-image: url(https://picsum.photos/1500/500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+}

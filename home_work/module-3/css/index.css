@@ -1,0 +1,92 @@
+
+.lifestyle, .photodiary, .music, .travel, .travel2, .travel3 {
+    /* background-color: black; */
+    /* color: yellow; */
+    padding: 15px 0;
+    text-align: center;
+    border: 2px;
+    margin: 5px 0;
+    display: inline-block;
+    }
+
+a:hover {
+    color: red;
+}
+
+.hover {
+    padding: 15px 0;
+    width: 500px;
+    /* background-color: lightblue; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block-wrapper {
+    height: 470px;
+    display: block;
+    text-align: center;
+    border: 1px;
+    padding: 25px 0; 
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.wrapper {
+    width: 470px;
+    margin: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    /* border: 1px solid; */ */
+    padding: 25px; 
+}
+
+
+.wrapper p, article {
+    /* text-align: center; */
+    /* border: 2px solid; */
+    /* margin: 5px 0;    */
+    color: gray ;
+    font-family: Playfair Display, sans-serif;
+}
+
+.p-lifestyle {
+    margin: 10px 0;
+    font-weight: 100;
+    }
+
+    .block-wrapper2 {
+        height: 960px;
+        display: block;
+        text-align: center;
+        border: 1px;
+        padding: 25px 0; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 20px;
+    }
+
+    .wrapper2, .wrapper3 {
+        width: 470px;
+        margin: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        text-align: center;
+        /* border: 1px solid; */
+        padding: 25px; 
+}
+
+.wrapper4 {
+    width: 470px;
+    margin: 30px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    padding: 25px; 
+}
+.wrapper4-child {
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+}
