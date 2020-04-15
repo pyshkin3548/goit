@@ -2,13 +2,13 @@
     padding: 0;
     width: 900px;
     align-items: center;
-    margin: 0;
+    margin: 0 auto;
     font-family: Playfair Display, sans-serif;
     color: lightslategray;
 }
 
 a:link {
-    padding: 14px 50px;
+    padding: 50px 40px;
     text-decoration: none;
     display: inline-block;
     color: lightslategray;
@@ -30,7 +30,7 @@ a:hover {
 .block-wrapper2 {
     /* width: 100%; */
     padding: 0;
-    margin: 0;
+    margin: 80px 0;
     /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ a:hover {
 .block-wrapper3 {
     /* width: 100%; */
     padding: 0;
-    margin: 0;
+    margin: 80px 0;
     display: flex;
     justify-content: center;
     /* box-sizing: border-box; */
@@ -123,7 +123,7 @@ a:hover {
 
 .block-button {
     /* decoration: none; */
-    /* margin: 0; */
+    margin: 30px 0;
     /* padding: 0; */
     display: flex;
     justify-content: center;
