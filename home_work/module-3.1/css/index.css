@@ -53,6 +53,15 @@ a:hover {
     padding: 25px; 
 }
 
+.block-wrapper3 {
+    /* width: 100%; */
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+}
+
 .wrapper-article3 {
     width: 470px;
     margin: 30px;
@@ -64,6 +73,35 @@ a:hover {
 }
 
 .wrapper-article4 {
+    width: 470px;
+    margin: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid;
+    padding: 25px; 
+}
+
+.block-wrapper4 {
+    /* width: 100%; */
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+}
+
+.wrapper-article5 {
+    width: 470px;
+    margin: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid;
+    padding: 25px; 
+}
+
+.wrapper-article6 {
     width: 470px;
     margin: 30px;
     box-sizing: border-box;
