@@ -14,7 +14,7 @@ a:link {
     color: lightslategray;
   }
 
-a:hover {
+a:hover, button:hover {
     color: lightblue;
 }
 
@@ -142,11 +142,4 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-
-  .button1-4 {
-    
-    align-items: justify;  
-    display: flex;
-    justify-content: center;
   }
