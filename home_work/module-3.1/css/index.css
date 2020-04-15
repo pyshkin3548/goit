@@ -1,8 +1,8 @@
 .wrapper {
-    /* padding: 15px 0; */
+    padding: 0;
     width: 900px;
-    /* align-items: center; */
-    /* margin: 0 auto; */
+    align-items: center;
+    margin: 0;
     font-family: Playfair Display, sans-serif;
     color: lightslategray;
 }
@@ -18,17 +18,17 @@ a:hover {
 
 .block-header {
     /* width: 1000px; */
-    /* padding: 15px 0; */
+    padding: 0;
     border: 2px;
-    /* margin: 5px 0; */
+    margin: 0;
     /* align-items: center; */
     text-align: center;
     }
 
 .block-wrapper2 {
     /* width: 100%; */
-    /* padding: 10px; */
-    /* margin: 5px; */
+    padding: 10px;
+    margin: 5px;
     /* box-sizing: border-box; */
     display: block;
     align-items: center;
@@ -57,8 +57,8 @@ a:hover {
 
 .block-wrapper3 {
     /* width: 100%; */
-    /* padding: 10px; */
-    /* margin: 5px; */
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     display: block;
     align-items: center;
@@ -86,8 +86,8 @@ a:hover {
 
 .block-wrapper4 {
     /* width: 100%; */
-    /* padding: 10px; */
-    /* margin: 5px; */
+    padding: 0; */
+    margin: 0;
     box-sizing: border-box;
     display: block;
     align-items: center;
@@ -114,8 +114,8 @@ a:hover {
 /* } */
 
 .block-button {
-    /* margin: 15px; */
-    /* padding: 15px; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     display: inline-block;
     align-items: center;
