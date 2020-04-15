@@ -7,10 +7,12 @@
     color: lightslategray;
 }
 
-a {
+a:link {
+    padding: 14px 50px;
     text-decoration: none;
+    display: inline-block;
     color: lightslategray;
-}
+  }
 
 a:hover {
     color: lightblue;
@@ -21,7 +23,7 @@ a:hover {
     padding: 0;
     border: 2px;
     margin: 0;
-    /* align-items: center; */
+    /* align-items: justify; */
     text-align: center;
     }
 
@@ -133,11 +135,18 @@ a:hover {
 
 button {
     background-color: rgba(107, 107, 107, 0);
-    border: 1px solid;
+    border: 1px solid lightslategray;
     color: lightslategray;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+  }
+
+  .button1-4 {
+    
+    align-items: justify;  
+    display: flex;
+    justify-content: center;
   }
