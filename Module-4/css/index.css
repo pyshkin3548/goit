@@ -3,3 +3,152 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.block {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.rgb {
+  background-color: rgb(231, 60,0);  
+}
+
+.hex {
+    background-color: #ff3322;
+}
+
+.hsl {
+    background-color: hsl(278,100%,50%);
+}
+
+.rgba {
+    background-color: rgba(145, 24, 68, 0.9);
+}
+
+.hsla {
+    background-color: hsla(108, 100%, 50%, 0.4);
+}
+
+.gradient {
+    height: 200px;
+}
+
+
+.linear {
+    background-image: linear-gradient( 56deg, #0b4868 25%, #032efc 35%, #F56217);
+}
+
+.radial {
+    background-image: radial-gradient(at center, #1488CC 30%,#032efc 40%, #b31217);
+    height: 500px;
+}
+
+.pseudo-elements li:before {
+    content: "\1F680";
+}
+
+.pseudo-elements li:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.underline {
+  text-align: center;
+  font-size: 32px;
+  margin: 10px 0; 
+  font-family: sans-serif;
+}
+
+.underline::first-letter {
+    font-size: 48px;
+    font-family: serif;
+    color: red; 
+
+
+}
+
+.underline:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 165px;
+    background-color: coral;
+    margin: 10px auto;
+}
+.underline::selection {
+    background-color: #000;
+    color: yellow;
+}
+
+
+.first-line::first-line {
+    color: orange;
+}
+
+#test:checked + label {
+    color: red;
+}
+button {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+button:disabled {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+button:focus {
+font-style: 18px;
+color: red;
+}
+
+button:hover {
+    color: coral;
+}
+
+#target:target {
+    color: orange;
+}
+
+/* First list elements in list */
+ul li:first-child {
+    margin-left: 20px;
+    font-style: 22px;
+}
+
+/* Last list element */
+ul li:last-child {
+    font-size: 24px;
+    color: red;
+}
+
+/* First link in list element  */
+ul li a:first-of-type {
+    text-decoration: none;
+}
+
+/* Last link in list element */
+ul li a:last-of-type {
+    font-size: 24px;
+}
+
+ul li:nth-child(even) {
+background-color: #000;
+color: yellow;
+}
+div:empty {
+    height: 100px;
+}
+img:only-of-type {
+    border: 2px solid;
+}
+
+/* an+b cycle */
+/* a - random numberm, cycle period *
+/* n - cycle iterator, starting from 0 / */
+/* b - random number, cycle offeset */
