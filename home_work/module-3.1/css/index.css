@@ -18,25 +18,18 @@ a:hover, button:hover {
     color: lightblue;
 }
 
-.block-header {
-    /* width: 1000px; */
+.header, ul {
     padding: 0;
     border: 2px;
     margin: 0;
-    /* align-items: justify; */
     text-align: center;
     }
 
 .block-wrapper2 {
-    /* width: 100%; */
     padding: 0;
     margin: 80px 0;
-    /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
-    /* display: block; */
-    /* align-items: center; */
-    /* text-align: center; */
 }
 
 /* .wrapper-article1 { */
