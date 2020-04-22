@@ -31,9 +31,18 @@ a:hover, button:hover {
 
 .block-wrapper2 {
     padding: 0;
-    margin: 80px 0;
+    margin: 40px 0;
     display: flex;
     justify-content: center;
+}
+
+.h2 {
+    margin: 40px;
+    padding: 40px;
+}
+
+p {
+    margin: 10px 0;
 }
 
 /* .wrapper-article1 { */
