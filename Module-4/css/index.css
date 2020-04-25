@@ -116,36 +116,52 @@ button:hover {
 }
 
 /* First list elements in list */
-ul li:first-child {
+.pseudo-classes li:first-child {
     margin-left: 20px;
     font-style: 22px;
 }
 
 /* Last list element */
-ul li:last-child {
+.pseudo-classes li:last-child {
     font-size: 24px;
     color: red;
 }
 
 /* First link in list element  */
-ul li a:first-of-type {
+.pseudo-classes li a:first-of-type {
     text-decoration: none;
 }
 
 /* Last link in list element */
-ul li a:last-of-type {
+.pseudo-classes li a:last-of-type {
     font-size: 24px;
 }
 
-ul li:nth-child(even) {
+.pseudo-classes li:nth-child(even) {
 background-color: #000;
 color: yellow;
 }
-div:empty {
-    height: 100px;
-}
+
+/* div:empty { */
+
+    /* height: 100px; 
+    */
+/* } */
+
 img:only-of-type {
     border: 2px solid;
+}
+
+.cycle li:nth-child(2n + 3) {
+    background-color: coral;
+    color: lightgreen;
+}
+
+.wrapper .box {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: red;
 }
 
 /* an+b cycle */

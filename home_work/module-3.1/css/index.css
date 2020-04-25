@@ -39,18 +39,33 @@ a:hover, button:hover {
 .wrapper-all-news {
     width: 900px;
     /* padding: 30px 0; */
-    /* margin-bottom: 0; */
     /* display: inline-block; */
+    font-size: 0;
+    
 }
 
 p, h2 {
 
     width: 420px;
     margin: 30px 0;
+    font-family: Playfair Display, sans-serif;
+    color: rgb(98, 98, 98);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Playfair Display, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: Playfair Display, sans-serif;
 }
 
 .wrapper-news1, .wrapper-news3, .wrapper-news5, .wrapper-news2, .wrapper-news4, .wrapper-news6 {
     display: inline-block;
+    /* margin-left: -2px; */
+    margin: 30px 0;
 }
 
 .wrapper-news1, .wrapper-news3, .wrapper-news5 {
@@ -85,5 +100,5 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
   }
