@@ -164,6 +164,85 @@ img:only-of-type {
     background-color: red;
 }
 
+.float-collapse {
+    padding: 10px;
+    background-color: coral;
+    height: auto;
+    overflow: hidden;
+}
+
+.float-collapse div {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.float-collapse div:first-child {
+    float: left;
+}
+
+.float-collapse div:last-child {
+    float: right;
+}
+
+.float-collapse p {
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.filter {
+    /* filter: blur(5px); */
+    /* filter: brightness(3.2); */
+    /* filter: contrast(1.1); */
+    /* filter: grayscale(1); */
+    /* filter: hue-rotate(120deg); */
+    /* filter: invert(0.3); */
+    /* filter: opacity(0.4); */
+    /* filter: saturate(0.8); */
+    filter: sepia(0.5);
+}
+
+/* 5.2.3 */
+.counter-wrapper {
+    counter-reset: paragraph 90;
+}
+
+.counter-wrapper p {
+    counter-increment: paragraph 10;
+}
+
+.counter-wrapper p:before {
+    content: counter(paragraph);
+    margin-right: 10px;
+}
+
+.book {
+    counter-reset: chapter;
+}
+
+.book section {
+    counter-reset: part;
+    counter-increment: chapter;
+}
+
+.book section article {
+    counter-increment: part;
+}
+
+.book section h2:after {
+    content: counter(chapter);
+    margin-left: 5px;
+}
+
+.book section article h3:after {
+    content: counter(part);
+    margin-left: 5px;
+}
 /* an+b cycle */
 /* a - random numberm, cycle period *
 /* n - cycle iterator, starting from 0 / */
