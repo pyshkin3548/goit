@@ -4,16 +4,28 @@
     box-sizing: border-box;
 }
 
+
+
 .wrapper {
     width: 1110px;
+    height: 1800px;
     margin: auto;
 }
 
 .mart {
+    font-size: 0;
     font-family: Roboto Light, sans-serif;
     font-size: 30px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     color: rgb(85, 82, 82);  
+    /* text-decoration: none; */
+}
+
+.mart a {
+    font-family: Roboto Light, sans-serif;
+    font-size: 30px;
+    color: rgb(85, 82, 82);  
+    text-decoration: none;
 }
 
 .mart::first-letter {
@@ -26,9 +38,10 @@
 
 .header {
     height: 100px;
+    padding: 30px 0;
 }
 
-header p {
+header h1 {
     float: left;
 }
 
@@ -56,7 +69,8 @@ a:link:hover {
 }
 
 .wrapper_2 {
-    height: 920px;
+    /* height: 920px; */
+    font-size: 0;
 }
 
 .wrapper_2 .clearfix::after {
@@ -65,7 +79,7 @@ a:link:hover {
     clear: both;  
 }
 
-.underline {
+.underline, .underline2 {
     text-align: center;
     font-size: 48px;
     margin: 60px auto; 
@@ -74,7 +88,7 @@ a:link:hover {
     /* font-weight: 750; */
 }
 
-.underline:after {
+.underline:after, .underline2:after {
     content: "";
     display: block;
     height: 7px;
@@ -88,11 +102,17 @@ a:link:hover {
     height: 320px;
 }
 
+li {
+    padding:0; 
+    margin:0
+}
+
 .hover {
+
     display: inline-block;
     width: 255px;
     height: 320px;
-    margin: 1.85ch;
+    margin: 15px;
     float: left;
 }
 
@@ -109,9 +129,7 @@ a:link:hover {
     height: auto;
 }
 
-.link-side, .p-side {
-    margin-top: 0;
-}
+
 
 .link-side {
     text-decoration: none;
@@ -120,11 +138,16 @@ a:link:hover {
     height: 40px;
     width: 80%;
     background-color: #323232;
-    padding: 12px;
     /* color: white; */
-    text-align: left;
+    /* text-align: center; */
     font-weight: 700;
     color: white;
+    font-size: 18px;
+    line-height: 40px;
+    vertical-align: middle;
+    padding-left: 12px;
+    
+    
 }
 
 .link-side a {
@@ -132,10 +155,9 @@ a:link:hover {
     font-family: Roboto-Black, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    padding: 14px;
-    color: white;
-    text-align: left;
-}
+    color: white; 
+}    
+    
  
 .p-side {
      display: inline-block;
@@ -146,6 +168,10 @@ a:link:hover {
      font-weight: 700;
      /* text-align: center; */
      background-color: #8c8c8c;
+     font-size: 18px;
+     text-align: center;
+     line-height: 40px;
+     vertical-align: middle;
 }
  
 .p-side p {
@@ -153,13 +179,17 @@ a:link:hover {
     font-family: Roboto-Black, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    /* padding: 10px; */
     color: white;
     text-align: center;
 }
 
+.wrapper_3 {
+    font-size: 0;
+    margin-top: 105px;
+}
 
-section ul li a+p {
+
+.wrapper_3 ul li a+p {
     text-decoration: none;
     display: inline-block;
     font-family: Roboto-Black, sans-serif;
@@ -168,12 +198,12 @@ section ul li a+p {
     color: white;
 }
 
-section ul li:hover .link-side {
+.wrapper_3 ul li:hover .link-side {
     background-color: #1abc9c;
     color: white; 
 }
 
-section ul li:hover .p-side {
+.wrapper_3 ul li:hover .p-side {
     background-color: #7fd9c7;
     color: white;  
 }
@@ -183,7 +213,7 @@ section ul li:hover .p-side {
     height: 500px;
     width: 350px;
     display: inline-block;
-    margin: 1.85ch;
+    margin: 15px;
     float: left;
 }
 
