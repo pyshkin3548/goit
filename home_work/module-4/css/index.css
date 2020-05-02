@@ -39,6 +39,7 @@
 .header {
     height: 100px;
     padding: 30px 0;
+    margin-bottom: 60px;
 }
 
 header h1 {
@@ -69,23 +70,25 @@ a:link:hover {
 }
 
 .wrapper_2 {
-    /* height: 920px; */
+    height: auto;
     font-size: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
+
 }
 
-.wrapper_2 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;  
+.wrapper_2 ul {
+    height: auto;
+    overflow: hidden;
 }
+
 
 .underline, .underline2 {
     text-align: center;
     font-size: 48px;
-    margin: 60px auto; 
+    margin-bottom: 80px;
     color: rgb(81, 81, 81);
     font-family: Roboto-Black, sans-serif;
-    /* font-weight: 750; */
 }
 
 .underline:after, .underline2:after {
@@ -97,49 +100,33 @@ a:link:hover {
     margin: 10px auto;
 }
 
-.window1, .window2, .window3, .window4, .window5, .window6, .window7, .window8,  {
-    width: 255px;
-    height: 320px;
-}
 
 li {
     padding:0; 
     margin:0
 }
 
-.hover {
-
-    display: inline-block;
+.window {
     width: 255px;
     height: 320px;
     margin: 15px;
     float: left;
 }
 
-.window1, .window5 {
+.window:nth-child(4n+1) {
     margin-left: 0;
 }
 /*  */
-.window4, .window8 {
+.window:nth-child(4n) {
     margin-right: 0;
 }
 
-.wrapper_2 ul li {
-    width: 255px;
-    height: auto;
-}
-
-
-
 .link-side {
     text-decoration: none;
-    /* background-size: 200px 40px;  */
     display: inline-block;
     height: 40px;
     width: 80%;
     background-color: #323232;
-    /* color: white; */
-    /* text-align: center; */
     font-weight: 700;
     color: white;
     font-size: 18px;
@@ -166,7 +153,6 @@ li {
      height: 40px;
      width: 20%;
      font-weight: 700;
-     /* text-align: center; */
      background-color: #8c8c8c;
      font-size: 18px;
      text-align: center;
@@ -185,13 +171,18 @@ li {
 
 .wrapper_3 {
     font-size: 0;
-    margin-top: 105px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0;
 }
 
+.wrapper_3 ul {
+    height: auto;
+    overflow: hidden;
+}
 
 .wrapper_3 ul li a+p {
     text-decoration: none;
-    display: inline-block;
     font-family: Roboto-Black, sans-serif;
     font-size: 18px;
     padding: 10px;
@@ -212,21 +203,19 @@ li {
 .news {
     height: 500px;
     width: 350px;
-    display: inline-block;
     margin: 15px;
     float: left;
 }
 
-.news1 {
+.news:nth-of-type(1) {
     margin-left: 0;
 }
 
-.news3 {
+.news:nth-last-of-type(1) {
     margin-right: 0;
 }
 
 h4 {
-    /* text-align: center; */
     font-size: 18px;
     margin: 10px auto; 
     color: #555252;
