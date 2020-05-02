@@ -181,7 +181,7 @@ li {
     overflow: hidden;
 }
 
-.wrapper_3 ul li a+p {
+.wrapper_3 a+p {
     text-decoration: none;
     font-family: Roboto-Black, sans-serif;
     font-size: 18px;
@@ -189,12 +189,12 @@ li {
     color: white;
 }
 
-.wrapper_3 ul li:hover .link-side {
+.window:hover > .link-side {
     background-color: #1abc9c;
     color: white; 
 }
 
-.wrapper_3 ul li:hover .p-side {
+.window:hover >.p-side  {
     background-color: #7fd9c7;
     color: white;  
 }
