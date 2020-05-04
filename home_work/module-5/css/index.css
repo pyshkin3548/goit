@@ -8,7 +8,7 @@
 
 .wrapper {
     width: 1600px;
-    height: 1800px;
+    /* height: 1800px; */
     margin: auto;
 }
 
@@ -73,6 +73,7 @@ a:link:hover {
 .slider {
     width: 1600px;
     height: 600px;
+    background-color: #fff;
     background-image: url(/goit/home_work/module-5/img/img1.jpg);
     font-size: 0;
     /* margin-bottom: 100px; */
