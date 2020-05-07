@@ -66,7 +66,7 @@ header ul li a:link {
     color: rgb(15, 1, 1);
   }
 
-a:link:hover {
+header a:link:hover {
     color: #1abc9c;
 }
 
@@ -118,8 +118,13 @@ a:link:hover {
     background-color: #1abc9c;
     color: white;
     font-family: Roboto;
-    color: white;
     font-size: 100px;
+    opacity: 0.52;
+}
+
+.slider-arrow:hover {
+    background-color: #1abc9c;
+    opacity: 1;
 }
 
 .left {
@@ -260,66 +265,86 @@ li {
     background-color: black;
     border: 10px solid white;
     /* margin: auto; */
+    text-transform: uppercase;
     position: absolute;
     }
+
+.overlay-window a {
+    text-decoration: none;
+    width: 87px;
+    height: 10px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
 
 .window:hover .overlay-window {
     opacity: 0.55;
 }
 
-button {
-    /* width: 50px;
-    height: 50px; */
-    border: 1px solid white;
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 32px;
-    display: flex;
-  /* flex-direction: column; */
-    /* margin: auto; */
+.window:hover:nth-last-child(1) .overlay-window {
+    opacity: 1;
 }
 
-.overlay-window button:nth-child(-n+3) {
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
     width: 50px;
     height: 50px;
     border: 1px solid white;
-    background-color: black;
-    opacity: 0.55;
-    display: inline-block;
-
-}
-
-.overlay-window button:nth-last-child(1) {
+    font-family: Roboto;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    padding: 0;
     text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: OpenSans-Light, sans-serif;
-    width: 166px;
-    height: 50px;
-    border: 1px solid white;
-    background-color: #323232;
 }
 
+.icons div:nth-last-child(1) {
+    margin-right: 0;
+}
 
-  .pe-7s-cart {
-    width: auto;
-    height: auto;
+.small {
+    width: 25x;
+    height: 25px;
     color: white;
     font-size: 30px;
+    margin: 0;
+    padding-top: 8px;
+    /* line-height: 32px; */
+    vertical-align: middle;
+}
+
+.icon_big {
+    width: 166px;
+    height: 50px;
+    background-color: #323232;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    opacity: none;
+}
+
+.add_tch {
+    /* width: 87px; */
+    /* height: 10px; */
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
     font-weight: 400;
     line-height: 32px;
     text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
     vertical-align: middle;
-    background-color: #323232;
-  }
+}
 
-  button:hover {
+.icon:hover, .icon_big:hover {
     background-color: #1abc9c;
-    height: auto;
-    width: auto;
+    border: 1px solid #1abc9c; 
 }
