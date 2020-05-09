@@ -8,7 +8,6 @@
 
 .wrapper {
     width: 1600px;
-    /* height: 1800px; */
     margin: auto;
 }
 
@@ -76,7 +75,6 @@ header a:link:hover {
     background-color: #fff;
     background-image: url(/goit/home_work/module-5/img/img1.jpg);
     font-size: 0;
-    /* margin-bottom: 100px; */
     position: relative;
 }
 
@@ -262,9 +260,8 @@ li {
     width: 255px;
     height: 281px;
     opacity: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.527);
     border: 10px solid white;
-    /* margin: auto; */
     text-transform: uppercase;
     position: absolute;
     }
@@ -281,18 +278,15 @@ li {
 }
 
 .window:hover .overlay-window {
-    opacity: 0.55;
+    opacity: 0.9;
 }
 
-.window:hover:nth-last-child(1) .overlay-window {
-    opacity: 1;
-}
 
-.icons {
-    display: flex;
+.icons { 
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-}
+
+} 
 
 .icon {
     width: 50px;
@@ -307,7 +301,37 @@ li {
 
 .icons div:nth-last-child(1) {
     margin-right: 0;
+    padding-top: 0;
 }
+
+.button1 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate( -1px, 0);
+}
+
+.button2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+.button3 {
+    position: absolute;
+    top: 30%;
+    right: 11%;
+    transform: translate( -1px, 0);
+}
+
+.button4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
 
 .small {
     width: 25x;
@@ -316,7 +340,6 @@ li {
     font-size: 30px;
     margin: 0;
     padding-top: 8px;
-    /* line-height: 32px; */
     vertical-align: middle;
 }
 
@@ -329,12 +352,9 @@ li {
     padding: 0;
     text-align: center;
     align-items: center;
-    opacity: none;
 }
 
 .add_tch {
-    /* width: 87px; */
-    /* height: 10px; */
     color: white;
     font-family: "Open Sans";
     font-size: 14px;
@@ -342,9 +362,42 @@ li {
     line-height: 32px;
     text-transform: uppercase;
     vertical-align: middle;
+        
 }
+
 
 .icon:hover, .icon_big:hover {
     background-color: #1abc9c;
     border: 1px solid #1abc9c; 
+}
+
+.wrapper_4 {
+    width: 1600px;
+    height: 88px;
+    background-color: #323232;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+
+footer p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fefefe;
+    margin-right: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #46bfa9;
+    
 }
