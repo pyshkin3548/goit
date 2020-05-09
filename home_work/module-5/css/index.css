@@ -139,7 +139,7 @@ header a:link:hover {
 
 .wrapper_2 {
     width: 1600px;
-    height: 675;
+    height: auto;
     background-color: #e9f0fd; 
 }
 
@@ -371,7 +371,7 @@ li {
     border: 1px solid #1abc9c; 
 }
 
-.wrapper_4 {
+footer {
     width: 1600px;
     height: 88px;
     background-color: #323232;
