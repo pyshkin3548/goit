@@ -63,6 +63,13 @@
     border-radius: 25px;
 }
 
+.site-autorise button:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+
 .site-logo {
     text-decoration: none;
     color: white;
@@ -103,6 +110,13 @@
     font-weight: 700;
     background-color: #ff4e50;
     border-radius: 20px;
+}
+
+.promo button:hover {
+    color: #ff4e50;
+    border: 2px solid white;    
+    border-radius: 20px;
+    background-color: white;
 }
 
 .partners {
@@ -230,4 +244,12 @@
     border: 2px solid #ff4e50;
     border-radius: 20px;
 }
+
+.partner-button:hover {
+    color: white;
+    border: 2px solid white;    
+    border-radius: 20px;
+    background-color: #ff4e50;
+}
+
 
