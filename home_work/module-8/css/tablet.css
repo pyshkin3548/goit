@@ -12,11 +12,11 @@
 
 
     .background {
-        background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_tablet.png');
+        background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_desktop.png');
         min-height: 700px;
         background-color: #1a1915;
         background-repeat: no-repeat;
-        width: auto;
+        width: 100%;
         background-repeat: no-repeat;
         background-position: center;
     }

@@ -11,10 +11,10 @@
 } 
 
 .background {
-    background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_mobile.png');
-    background-color: #fff;
+    background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_desktop.png');
+    background-color: #1a1915;
     min-height: 540px;
-    width: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
