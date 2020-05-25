@@ -10,39 +10,35 @@
   box-sizing: border-box;
 } 
 
+
 .background {
     background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_desktop.png');
+    min-height: 700px;
     background-color: #1a1915;
-    min-height: 540px;
+    background-repeat: no-repeat;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+
 .container {
-    width: 320px;
+    width: 940px;
     margin: 0 auto;
     text-align: center;
-}
-
-.page-header {
-   /* margin: 0 auto; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .page-autorise {
-    min-height: 200px;
-    padding-top: 15px;
+    /* min-height: 200px; */
+    padding-top: 40px;
     display: flex;
     /* justify-content: space-evenly; */
-    flex-flow: column-reverse;
+    flex-flow: row;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: 25px;
-}
-
-.site-autorise {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 140px;
 }
 
 .site-autorise button {
@@ -80,29 +76,32 @@
 }
 
 .promo-title {
+    font-size: 0;
+    margin: 0 auto;
+    width: 600px;
     color: white;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .promo-sub-title {
     font-size: 0;
     margin: 0 auto;
-    width: 217px;
+    width: auto;
     color: white;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .promo button {
     text-decoration: none;
     border-style: none;
-    width: 280px;
+    width: 225px;
     height: 40px;
     color: white;
     font-family: Montserrat;
@@ -131,22 +130,25 @@
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     list-style: none;
     margin: 0 auto;
-    /* width: 80%; */
 }
 
 .partners-list-item {
-    margin-bottom: 25px;
+    width: 220px;
+    margin-bottom: 40px;
 }
 
 .icon {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .tv::before {
@@ -238,7 +240,7 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
-    width: 280px;
+    width: 192px;
     height: 40px;
     background-color: white;
     border: 2px solid #ff4e50;
@@ -251,5 +253,4 @@
     border-radius: 20px;
     background-color: #ff4e50;
 }
-
 

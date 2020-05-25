@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
+
+.background {
+    background-image: url('/goit/home_work/module-8/img/Vector_Smart_Object_desktop.png');
+    background-color: #1a1915;
+    min-height: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-autorise {
+    /* height: 100%; */
+    /* margin: 0 auto; */
+    min-height: 200px;
+    padding-top: 20px;
+    /* display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    text-align: center; */
+    margin-bottom: 25px;
+}
+
+.login-container button {
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border-style: none;
+    width: 90px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.login-container button:last-child {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
