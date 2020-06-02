@@ -1,0 +1,13 @@
+// This will be compiled
+.box {
+    .child {
+        .another-child {
+            height: 250px;
+            width: 250px;
+            background-color: red;
+        }
+    }
+}
+
+// .......to 
+// .box .child . another-child {}

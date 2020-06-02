@@ -227,6 +227,11 @@
     background-color: #ff4e50;
 }
 
+.partners-list-item {
+    width: 320px;
+    margin-bottom: 60px;
+}
+
 
 @media screen and (max-width: 768px) {
     .login-container {
@@ -236,6 +241,7 @@
     .page-autorise {
         margin-bottom: 25px;
     }
+
 }
 
 @media screen and (min-width: 769px) {
@@ -271,7 +277,7 @@
     }
 
     .partners-list-item {
-        width: 250px;
+        width: 236px;
         margin-bottom: 60px;
     }
 
@@ -280,5 +286,9 @@
 }
 
 @media screen and (min-width: 960px) {
+    .partners-list-item {
+        width: 220px;
+        margin-bottom: 60px;
+    }
 
 }
