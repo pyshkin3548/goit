@@ -1,0 +1,65 @@
+link
+
+background
+
+page-header
+
+page-nav 
+
+container
+
+site-logo
+
+site-navigation
+    site-navigation__item
+    site-navigation__link
+    site-navigation__icon
+
+promo
+    promo__title
+        promo__title--span
+    promo_button
+
+title
+    title--span
+
+underline
+
+p_reset
+
+services
+    services__list
+    services__item
+    services__item-title
+    services__item-decription
+    services__icon
+        services__icon--alarm
+        services__icon--graph
+        services__icon--computer
+        services__icon--book
+        services__icon--home
+        services__icon--image
+team    
+    team__title-decription
+    team__list
+    team__item
+
+    team__img
+    team__name
+    team__position
+
+overlay
+    overlay__link
+    overlay__icon
+    overlay__icon-svg
+        overlay__icon-svg--facebook
+        overlay__icon-svg--twitter
+        overlay__icon-svg--pinterest
+        overlay__icon-svg--instagram
+
+footer
+    footer__text
+    footer__link
+    footer__form
+    footer__input-text
+    footer__input-submit

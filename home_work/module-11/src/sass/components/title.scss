@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 auto; */
+    color: $main-colour-black;
+    font-family: $main-font-stack;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title--span {
+    color: $main-colour-black;
+    font-family: $secondary-font-stack;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+}

@@ -1,0 +1,54 @@
+.overlay {
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+    transition: all 200ms linear;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: -10px; 
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;  
+
+    &link {
+        @extend %link;
+    }
+}
+
+.overlay__icon-svg {
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: center;
+    fill: $secondary-bg-colour;
+    width: 26px;
+    height: 26px; 
+}
+
+.overlay__icon {
+    width: 56px;
+    height: 56px;
+    background-color: $main-bg-colour;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    transition: all 200ms linear;
+
+    &:hover {
+        background-color: $secondary-bg-colour;
+        /* transition: all 200ms linear; */
+        fill: $main-colour-white;
+    }
+
+    &:hover .overlay__icon-svg {
+        /* background-color: white; */
+        /* transition: all 200ms linear; */
+        fill: $main-colour-white;
+    }
+}
