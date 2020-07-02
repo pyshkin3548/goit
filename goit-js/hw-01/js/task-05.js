@@ -1,7 +1,6 @@
 let cost;
 const userInput = prompt('Введите страну назначения');
-const normalizedInput = userInput.toLowerCase();
-const country = normalizedInput;
+const country = userInput.toLowerCase();
  
 switch (country) {
 

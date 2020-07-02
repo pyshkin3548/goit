@@ -1,9 +1,5 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message = prompt('Введите пароль');
-// message = Number(message);
-
-// console.log(message);
-// console.log(ADMIN_PASSWORD === message);
 
 if (message === ADMIN_PASSWORD) {
 
