@@ -15,7 +15,7 @@ class Car {
 
 
     static getSpecs(car) {
-        return (`${car.model}, ${car.maxSpeed}, ${car.speed}, ${car.isOn}, ${car.distance}, ${car.price}`);
+        console.log(`maxSpeed: ${car._maxSpeed}, speed: ${car._speed}, isOn: ${car._isOn}, distance: ${car._distance}, price: ${car._price}`);
     }
 
 

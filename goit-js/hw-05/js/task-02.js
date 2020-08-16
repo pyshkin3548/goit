@@ -5,7 +5,7 @@ class User {
     this.followers = followers;
   }
 
-  getInfo(name, age, followers) {
+  getInfo() {
 
     console.log(`User ${this.name} is ${this.age} years old and has ${this.followers} followers`);
   }
