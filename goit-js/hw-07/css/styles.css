@@ -1,0 +1,28 @@
+.gallery_list__element {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+:root {
+  /* :root is a clever way of saying "the outer-most element" */
+
+  --span-size: 36px;
+  /*the default */
+}
+
+.text {
+  font-size: var(--span-size);
+}
