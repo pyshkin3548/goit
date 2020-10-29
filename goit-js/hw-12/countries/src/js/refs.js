@@ -1,6 +1,6 @@
 const refs = {
-  articlesContainer: document.querySelector('.js-container'),
-  input: document.querySelector('#input'),
+  searchInputRef: document.querySelector('input[name=searchInput]'),
+  countriesInsertRef: document.querySelector('.countries-insert-js'),
 };
 
 export default refs;
